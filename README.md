@@ -11,6 +11,9 @@ The VirtualBox-Session0-Manager runs as a tiny web server within the same contex
 * Delete/Merge snapshots safely.
 * Stay Secure: Run everything under the restricted Local Service account.
 
+<img width="1437" height="608" alt="grafik" src="https://github.com/user-attachments/assets/049bd124-756b-4b17-82fa-3e60d7b64ac0" />
+
+
 ------------------------------
 ## 💻 Installation & Deployment
 
@@ -65,6 +68,11 @@ nssm install VBoxWebDashboard "C:\Windows\System32\WindowsPowerShell\v1.0\powers
 nssm set VBoxWebDashboard ObjectName "NT AUTHORITY\Local Service"
 nssm start VBoxWebDashboard
 ```
+
+## Start and Access via your Browser
+
+`http://127.0.0.1:8080`
+
 
 ------------------------------
 ## ⚙️ Configuration
