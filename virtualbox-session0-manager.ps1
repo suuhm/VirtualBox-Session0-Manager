@@ -1,5 +1,6 @@
 <#
 .SYNOPSIS
+    VirtualBox-Session0-Manager v0.1b
     VirtualBox Service Dashboard (Session 0 Management)
 .DESCRIPTION
     A lightweight PowerShell-based web interface to manage VirtualBox VMs running 
